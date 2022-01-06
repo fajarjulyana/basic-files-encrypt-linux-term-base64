@@ -4,7 +4,7 @@
 
 #encryption syntax
 
-base64 fj.png >> fj.encrypt.png // encrypt out as fj.encrypt.png
+base64 fj.png >> fj.encrypt.png #encrypt out as fj.encrypt.png
 
 #look result
 
@@ -12,7 +12,7 @@ cat fj.encrypt.png
 
 #decrypt base64
 
-base64 -d fj.encrypt.png >> out.png // decrypt out as out.png
+base64 -d fj.encrypt.png >> out.png #decrypt out as out.png
 
 #copytest
 
